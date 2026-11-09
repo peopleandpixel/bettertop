@@ -1,0 +1,17 @@
+[package]
+name = "bettertop"
+version = "0.1.0"
+edition = "2024"
+description = "A beautiful, feature-rich system monitor for the terminal with donut CPU gauges, flame charts, process heatmaps, and process trees"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/peopleandpixel/bettertop"
+homepage = "https://github.com/peopleandpixel/bettertop"
+readme = "README.md"
+keywords = ["system-monitor", "htop", "tui", "terminal", "visualization"]
+categories = ["command-line-utilities", "visualization"]
+
+[dependencies]
+ratatui = "0.29"
+sysinfo = "0.33"
+crossterm = "0.28"
+anyhow = "1"
